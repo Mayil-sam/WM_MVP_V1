@@ -61,7 +61,7 @@ console.log('Navigating to OrderForm...');
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Login</Text>
+      <Text style={styles.title}>Application Login</Text>
       <Formik
         initialValues={{ username: '', password: '' }}
         validationSchema={LoginSchema}
